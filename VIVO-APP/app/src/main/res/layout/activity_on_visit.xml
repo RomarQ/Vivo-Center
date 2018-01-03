@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Visit.onVisit">
+
+    <SurfaceView
+        android:layout_margin="20dp"
+        android:id="@+id/SV_QRreader"
+        android:layout_width="match_parent"
+        android:layout_height="480px" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/Btn_endVisit"
+        android:visibility="gone"
+        android:enabled="false"
+        android:layout_gravity="center"
+        fbutton:fButtonColor="@color/primary"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Mostrar Leitor QR"
+        android:textColor="#FFFFFF"
+        fbutton:cornerRadius="10dp"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="6dp"/>
+
+    <TextView
+        android:id="@+id/TV_guide"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Foque a câmera no QR code à entrada para dar inicio à visita."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Chronometer
+        android:id="@+id/Ch_visiTimer"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:countDown="false"
+        android:textColor="@color/accent"
+        android:textSize="30sp" />
+
+</LinearLayout>

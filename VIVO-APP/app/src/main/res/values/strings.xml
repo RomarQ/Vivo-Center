@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Vivo</string>
+    <string name="opt1">Mau</string>
+    <string name="opt2">Razoável</string>
+    <string name="opt3">Bom</string>
+    <string name="opt4">Muito Bom</string>
+    <string name="question1">O que achou da escalada?</string>
+    <string name="question2">O que achou da caminhada?</string>
+    <string name="question3">O que achou do rafting?</string>
+    <string name="question4">De forma geral avalie o centro</string>
+
+    <string name="about_us1">No pro diam invidunt erroribus. Ponderum electram te eum, at has debet
+        cotidieque repudiandae. No possim atomorum ocurreret sea, an sed porro salutatus expetendis.
+        Quo modus argumentum cu, causae invidunt no vix. Sed solet expetenda et, exerci epicurei
+        cu pri, vis iriure facilisi ad.  Congue audire evertitur at nec. Ex quodsi gloriatur
+        forensibus mel, nec epicuri corrumpit ea, duo altera ponderum ex. Docendi dignissim mel ut.
+        Ne has placerat voluptatum reprehendunt, mei latine graecis liberavisse in. No sit verterem
+        singulis, quaestio assueverit ius cu. Eum tation tamquam id, ne rebum autem debet vix, eum
+        impedit theophrastus cu. Et nec diam discere. Ne homero alterum conceptam eam, ea audire
+        admodum suscipit vix, cum doctus corpora facilisi ea.</string>
+    <string name="about_us2">His mutat possit suscipit ea, at sea populo inciderint. Sit ad suas
+        ullamcorper contentiones, eos ex saepe tincidunt disputationi! Ea repudiare signiferumque
+        cum, ad cum alia erat? Quot legimus appareat ex vim, nam brute gloriatur ad! An pro
+        honestatis eloquentiam definitiones, illum reformidans duo ad, malis consulatu pro ne.
+        Ad est meis mollis disputando, sed eius officiis eu. Et inani iudico sea, usu habeo nobis
+        salutandi ea, est ludus quodsi philosophia cu. Graece feugiat nostrum eu mea, suas munere
+        legendos ex vis.</string>
+    <string name="title_activity_how_to_get_here">Map</string>
+</resources>
+

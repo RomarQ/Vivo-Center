@@ -1,0 +1,15 @@
+
+                        The following instructions are only applied if you want change API host to localhost
+
+
+___________________________________________________________________________________________________________________________________________
+**** APP ****
+
+1 -> Just need to change global "API_host" in Session Class to "http:/localhost".
+____________________________________________________________________________________________________________________________________________
+**** API ****
+
+1 -> INSTALL https://www.meteor.com/ (Back-End - comes with nodejs already)
+3 -> cd Vivo-Center/VIVO-API and write "meteor" on terminal
+4 -> Probably there is a few packages missing, to fix it just follow what is said on terminal to install those packages ( takes like 20s )
+5 -> After that app should be UP and RUNNING (DONE)

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_light"
+                android:gravity="center_horizontal"
+                android:text="2º Ciclo"
+                android:textColor="@color/accent"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/ciclo_2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Casa Energética"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Os visitantes serão confrontados com a necessidade de eletrificarem e aquecer devidamente uma casa de forma a aplicar os conteúdos apresentados na Zona da Aventuras na Energia"
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Experiências de energia"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Interacção e experimentação com modelos didácticos: o visitante terá a oportunidade de experimentar com modelos didácticos e observar como decorre o processo de conversão de energia. Serão disponibilizados modelos relativos aos mecanismos de conversão de energia associados às metodologias mais convencionais."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Noite na Montanha"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Zona escura com 3 locais de projeção do céu noturno com estrelas e com 1 zona climatizada que permitirá diferentes condições atmosféricas (temperatura, humidade e chuva). O visitante será convidado a participar em 2 aventuras na noite da montanha. Na 1ª realizará o percurso recorrendo à orientação astronómica e na 2ª realizará o percurso com recurso ao trabalho de equipa, pois alguns elementos no exterior ficarão responsáveis por dar as informações necessárias de orientação e ultrapassagem de obstáculos no interior."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Conhecer a Montanha"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Conjunto de painéis interativos e realização de experiencias demonstrativas sobre conceitos relacionados com a Montanha ao nível da geologia, climatologia e astronomia."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Captura de Energia"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="O visitante terá a possibilidade de explorar mecanismos de conversão avançados que permitem converter diferentes formas de energia em energia eléctrica. São exemplos disso: electromagnético na conversão de energia mecânica das vibrações; fotovoltaico na conversão da radiação solar, termoeléctrico na conversão do gradiente térmico; electroquímica na conversão do hidrogénio; piezoeléctrica na conversão de energia mecânica de compressões e deformações de geometria."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Viver na Montanha"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text='Conjunto de situações experienciais que abordam as condições necessárias para viver na montanha como; construção de abrigos, acampamentos, utilização da água (levadas, pureza, energia). Painéis interativos sobre outros recursos existentes relacionados com a fauna e flora, numa perspetiva de utilização sustentável dos recursos.'
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Expedição à Montanha"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Conjunto de situações experienciais que abordam a preparação da mochila, da realização de protetores e antídotos, construção da bússola, e ainda utilização de mapas cartográficos. Os desafios são dados aos visitantes de forma a permitir a exploração do espaço interior e Exterior do Centro."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Resgate na Montanha"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Os visitantes serão confrontados com a situação de resgatarem uma pessoa 'acidentada na montanha'. Existirão um conjunto de situações experienciais de forma a adquirir conhecimentos e “saber fazer” ao nível dos 1ºs socorros, manobras de cordas e nós, utilização de máquinas simples (roldanas, cadernais), construção de uma maca, e ainda os princípios técnicos da escalada. Nesta zona será construída uma parede de escalada que permitirá aos visitantes experimentarem a escala (subida e descida) e ainda umas escadas de acesso ao passadiço superior para o visitante que não pretenda escalar."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Mountain Games"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Os visitantes serão confrontados nesta sala com um conjunto de desafios mentais e lógicos para resolução de um enigma ou situação problema ocorrido na montanha, com base nas aprendizagens realizadas no centro, e considerando um tempo limite para a aventura."
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/primary_light"
+                    android:gravity="center_vertical"
+                    android:text="Arborismo"
+                    android:textColor="@color/accent" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:text="Estações de arborismo.                                                                         "
+                    android:textColor="@color/accent" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

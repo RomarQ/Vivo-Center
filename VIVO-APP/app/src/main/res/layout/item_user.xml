@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/CV_user"
+    tools:context=".Users.usersAdapter">
+
+    <LinearLayout
+        android:id="@+id/LL_user"
+        android:padding="10dp"
+        android:background="@color/primary"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/TV_username"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/primary_dark"
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/TV_LastLogin"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

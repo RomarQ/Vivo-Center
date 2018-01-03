@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Visit.showVisitsPerPeriod">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:text="Visitas de Hoje"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/TV_dayVisits"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_light"
+            android:textSize="50sp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:text="Visitas este Mês"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/TV_monthVisits"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_light"
+            android:textSize="50sp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:text="Visitas este Ano"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/TV_yearVisits"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_light"
+            android:textSize="50sp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/Btn_goBack"
+        android:text="Voltar Atrás"
+        android:layout_marginHorizontal="15dp"
+        fbutton:fButtonColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/accent"
+        fbutton:cornerRadius="50dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="6dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

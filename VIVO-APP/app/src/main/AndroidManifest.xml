@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.ubi.pdm.vivo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".Service.vivoService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Service.Receiver"
+            android:process=":remote" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.Visits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.onVisit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.endVisit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.VisitsLog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Service.Notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".newNotification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.evalForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Users.Users"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Users.aboutUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.evalShow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit.showVisitsPerPeriod"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Team"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleAtivities.Exhibition"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleAtivities.AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleAtivities.Center"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SimpleAtivities.Prices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.sliderRoutes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".howToGetHere"
+            android:label="@string/title_activity_how_to_get_here" />
+        <activity
+            android:name=".EducativeOffers.educativeOffers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EducativeOffers.Offer1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EducativeOffers.Offer2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EducativeOffers.Offer3"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EducativeOffers.Offer4"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
