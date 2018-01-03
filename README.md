@@ -21,7 +21,7 @@ After that, API should be UP and RUNNING (DONE)
 ```
 
 ### **** Start Visit with this QR-Code ****
-![Screenshot](screenshot.png)
+![Screenshot](start.jpg)
 
 ### **** End Visit with this QR-Code ****
-![Screenshot](screenshot.png)
+![Screenshot](end.jpg)
