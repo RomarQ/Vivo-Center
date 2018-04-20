@@ -1,6 +1,6 @@
 # Vivo-Center
 
-### The following instructions are only applied if you want change API host to localhost
+### The following instructions are only applied if you want to change API host to localhost
 
   - APP
   - API
